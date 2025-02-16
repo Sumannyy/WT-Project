@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ford Mustang Parts & Sales</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">CAR STORE</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#stocks">New Stocks</a>
+        <a href="#parts">Spare Parts</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Car Parts & Sales</h1>
+        <p>Genuine Parts | New Arrivals | Expert Support</p>
+      </div>
+    </section>
+
+    
+
+    <div class="container">
+      <!-- New Arrivals Section -->
+      <section id="stocks">
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="products-grid">
+          <!-- Car Stock Item -->
+          <div class="product-card">
+            <img 
+              id="Mustang" 
+              src="image-by-path (1).jpg" 
+              alt="2023 Ford Mustang GT" 
+              class="product-image" />
+            <div class="product-info">
+              <h3 class="product-title">2023 Ford Mustang GT</h3>
+              <p class="product-price">$42,000</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img 
+              id="GT500" 
+              src="profile-view-of-orange-and-white-ford-mustang-500-gt-cars-parked-in-the-street.webp" 
+              alt="Shelby GT500" 
+              class="product-image" />
+            <div class="product-info">
+              <h3 class="product-title">Shelby GT500</h3>
+              <p class="product-price">$74,000</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Spare Parts Section -->
+      <section id="parts">
+        <h2 class="section-title">Spare Parts</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <img 
+              id="Engine" 
+              src="M-6007-M50C_Gen_3_Coyote_5-0_V8_Crate_engine.webp" 
+              alt="5.0L Coyote V8 Engine" 
+              class="product-image" />
+            <div class="product-info">
+              <h3 class="product-title">5.0L Coyote V8 Engine</h3>
+              <p class="product-price">$6,500</p>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img 
+              id="BrakeKit" 
+              src="/81AuBI9UilL.webp" 
+              alt="Performance Brake Kit" 
+              class="product-image" />
+            <div class="product-info">
+              <h3 class="product-title">Performance Brake Kit</h3>
+              <p class="product-price">$1,200</p>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <body>
+      <div class="price-table">
+          <table>
+              <thead>
+                  <tr>
+                      <th>Model</th>
+                      <th>Price</th>
+                      <th>Features</th>
+                      <th>Contact</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="car-model">Sedan LX</td>
+                      <td class="price">$23,500</td>
+                      <td class="features">1.5L Engine, 5 Seats, Apple CarPlay, Lane Assist</td>
+                      <td><button class="contact-button">Inquire</button></td>
+                  </tr>
+                  <tr>
+                      <td class="car-model">SUV Sport</td>
+                      <td class="price">$35,200</td>
+                      <td class="features">2.4L Turbo, AWD, Leather Seats, Panoramic Roof</td>
+                      <td><button class="contact-button">Inquire</button></td>
+                  </tr>
+                  <tr>
+                      <td class="car-model">Hybrid Elite</td>
+                      <td class="price">$42,900</td>
+                      <td class="features">Hybrid Engine, Premium Sound, Heated Seats, Adaptive Cruise</td>
+                      <td><button class="contact-button">Inquire</button></td>
+                  </tr>
+                  <tr>
+                      <td class="car-model">Coupe GT</td>
+                      <td class="price">$47,800</td>
+                      <td class="features">3.0L V6, Sport Package, Carbon Fiber Trim, Track Mode</td>
+                      <td><button class="contact-button">Inquire</button></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  
+<br><br><br>
+    <!-- Contact Section -->
+    <section class="contact-container" id="contact">
+      <h2>Contact Us</h2>
+      <!-- Update the action URL to point to your form handling script -->
+      <form class="contact-form" action="/submit-form" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Car Store Parts & Sales. All rights reserved.</p>
+  </footer>
+</body>
+</html>
